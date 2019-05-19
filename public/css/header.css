@@ -1,0 +1,96 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+    height: 200px;
+    width: 1000px;
+    margin-right:auto;
+    margin-left:auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin-bottom: 50px;
+    border:1px solid black;
+    box-sizing: border-box;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: rgba(87, 115, 137, 0.85);
+}
+.menu li{
+    list-style-type: none;
+    display: inline;
+    font-size: 30px;
+}
+.menu li a{
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    box-sizing: border-box;
+    padding: 7px 30px 7px 30px;
+    margin: 0px 5px 0px 5px;
+    background-color: rgba(177, 204, 215, 0.85);
+}
+.menu li:nth-child(2) a {
+    font-size: 40px;
+}
+header nav {
+    float: right;
+    margin-top:120px;
+}
+.logo{
+    height:150px;
+    width:400px;
+    position: absolute;
+    right:775px;
+    top:-20px;
+}
+.but1{
+    position: absolute;
+    text-decoration: none;
+    color:black;
+    font-size:30px;
+    left: 625px;
+    top:35px;
+    border:1px solid black;
+    box-sizing: border-box;
+    padding: 7px 30px 7px 30px;
+    background-color: rgba(177, 204, 215, 0.85);
+}
+.but2{
+    position: absolute;
+    text-decoration: none;
+    color:black;
+    font-size:30px;
+    right:290px;
+    top:35px;
+    border:1px solid black;
+    box-sizing: border-box;
+    padding: 7px 30px 7px 30px;
+    background-color: rgba(177, 204, 215, 0.85);
+}
+.but3{
+    position: absolute;
+    text-decoration: none;
+    color:black;
+    font-size:30px;
+    left: 650px;
+    top:35px;
+    border:1px solid black;
+    box-sizing: border-box;
+    padding: 7px 30px 7px 30px;
+    background-color: rgba(177, 204, 215, 0.85);
+}
+.but4{
+    position: absolute;
+    text-decoration: none;
+    color:black;
+    font-size:30px;
+    right:300px;
+    top:35px;
+    border:1px solid black;
+    box-sizing: border-box;
+    padding: 7px 30px 7px 30px;
+    background-color: rgba(177, 204, 215, 0.85);
+}

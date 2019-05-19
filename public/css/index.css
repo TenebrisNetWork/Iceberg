@@ -1,0 +1,80 @@
+body{
+    background-color:#425158
+}
+.mainIndex{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    border:none;
+}
+.sidebarHOME{
+    width:20%;
+    height:800px;
+    border:1px solid black;
+    box-sizing: border-box;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    float: left;
+    background-color: rgba(162, 99, 92, 0.85);
+    border-radius: 15px;
+}
+.TopPanelHOME{
+    float: right;
+    width:79%;
+    height:200px;
+    border:1px solid black;
+    box-sizing: border-box;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-bottom:25px;
+    background-color: rgba(225, 234, 231, 0.85);
+    border-radius: 15px;
+}
+.contentHOME{
+    float: right;
+    width:79%;
+    border:1px solid black;
+    box-sizing: border-box;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: rgba(177, 204, 215, 0.85);
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+.NewsPanel{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    height: 150px;
+    margin-top:25px;
+    background-color: rgba(225, 234, 231, 0.85);;
+}
+.NewsPanel p {
+    text-align: center;
+    margin:10px;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+.NewsPanel h3 {
+    text-align: center;
+    margin-top:10px;
+}
+.NewsPanel span {
+    font-size: 12px;
+}
+.readNext a{
+    background-color: rgba(177, 204, 215, 0.85);
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 8px 10px 8px;
+    border-radius:15px;
+}
+.readNext{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}

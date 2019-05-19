@@ -1,0 +1,111 @@
+.mainArticle{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidebarArticle{
+    width:20%;
+    padding-bottom: 20px;
+    border:1px solid black;
+    box-sizing: border-box;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    float: left;
+    background-color: rgba(162, 99, 92, 0.85);
+    border-radius:15px;
+}
+.contentArticle{
+    float: right;
+    width:79%;
+    border:1px solid black;
+    box-sizing: border-box;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: rgba(177, 204, 215, 0.85);
+    border-radius:15px;
+    padding-bottom: 20px;
+}
+.Article{
+    margin-left:20px;
+    margin-top:20px;
+    border:1px solid black;
+    box-sizing: border-box;
+    width:46%;
+    height:225px;
+    float: left;
+    background-color: rgba(225, 234, 231, 0.85);
+    border-radius:15px;
+}
+.Article h3{
+    text-align: center;
+    margin-top:10px;
+}
+.Article h4{
+    text-align: center;
+}
+.Article span a{
+    text-align: center;
+    display: block;
+    margin-top: 125px;
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: rgba(177, 204, 215, 0.85);
+    font-weight: bold;
+    border-right: none;
+    border-left:none;
+    margin-top:20px;
+}
+.Article p{
+    text-align: center;
+    margin-top:10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.sidebarArticle h3 a{
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    box-sizing: border-box;
+    padding: 10px 8px 10px 8px;
+    background-color: rgba(87, 115, 137, 0.85);
+    font-weight: bold;
+    display: block;
+    margin-top:20px;
+    text-align: center;
+    font-size:25px;
+    border-right: none;
+    border-left:none;
+
+}
+.sidebarArticle ul li{
+    list-style-type: none;
+    text-align: center;
+
+}
+.sidebarArticle ul li a{
+    background-color: rgba(177, 204, 215, 0.85);
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    box-sizing: border-box;
+    padding: 10px 8px 10px 8px;
+    display: block;
+    border-right: none;
+    border-left:none;
+
+}
+.sidebarArticle ul li:nth-child(1) a{
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    box-sizing: border-box;
+    padding: 10px 8px 10px 8px;
+    background-color: rgba(87, 115, 137, 0.85);
+    font-weight: bold;
+    display: block;
+    margin-top:20px;
+    text-align: center;
+    border-right: none;
+    border-left:none;
+}
